@@ -1,9 +1,6 @@
 <?php
 // Database configuratie
-$hostname = 'localhost';      // Hostnaam (bijv. 'localhost' of '127.0.0.1')
-$username = '87249'; // Gebruikersnaam voor de database
-$password = '988K42703';      // Wachtwoord voor de database
-$database = '87249_portfolio'; // Naam van de database
+
 
 // Maak de verbinding
 $conn = new mysqli($hostname, $username, $password, $database);
