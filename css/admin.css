@@ -1,0 +1,28 @@
+body {
+    background-color: #f0f0f0; /* Kies een gewenste achtergrondkleur */
+    font-family: Arial, sans-serif; /* Kies een gewenst lettertype */
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+a {
+    color: #007BFF; /* Kleur voor koppelingen */
+    text-decoration: none; /* Verwijder onderstreping */
+}
+
+a:hover {
+    text-decoration: underline; /* Voeg een onderstreping toe bij hover */
+}
