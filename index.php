@@ -1,20 +1,4 @@
 <?php
-// Database configuratie
-
-
-// Maak de verbinding
-$conn = new mysqli($hostname, $username, $password, $database);
-
-// Controleer op verbindingen
-if ($conn->connect_error) {
-    die("Verbinding mislukt: " . $conn->connect_error);
-}
-
-// Haal projectgegevens op uit de database
-$query = "SELECT * FROM projecten";
-$result = $conn->query($query);
-?>
-
 <!DOCTYPE HTML>
 <html>
 	<head>
@@ -333,12 +317,6 @@ $result = $conn->query($query);
 	<script src="js/magnific-popup-options.js"></script>
 
 	<script src="js/main.js"></script>
-
-	<div id="colorlib-login">
-		<div class="container text-center">
-			<a data-translation="login"  href="login.php" class="btn btn-primary btn-lg">Inloggen</a>
-		</div>
-	</div>
 
 	</body>
 </html>
